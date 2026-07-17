@@ -1,0 +1,7 @@
+Calculated Field,Formula
+Total Revenue,SUM([Revenue])
+Total Orders,COUNT([Order ID])
+Avg Rating,AVG([Customer Rating])
+Avg Delivery Days,AVG([Delivery Days])
+Average Order Value,SUM([Revenue])/COUNT([Order ID])
+Revenue After Discount,SUM([Revenue]*(1-[Discount]))
